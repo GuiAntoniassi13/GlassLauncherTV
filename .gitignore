@@ -1,0 +1,20 @@
+# Build e cache do Gradle/Android Studio
+.gradle/
+.kotlin/
+build/
+app/build/
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Chaves de assinatura: nunca publicar
+assinatura/
+*.keystore
+*.jks
+
+# Pacotes gerados (publicados em Releases)
+*.apk
+*.aab
